@@ -1,0 +1,25 @@
+body {
+    background-color: pink;
+}
+span {
+    color: brown;
+}
+.navbar-nav > li > a {
+    font-size: 17spx;
+    
+}
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    color: brown!important;
+}
+@media (max-width:600px){
+    /* For tablets */
+    #hidden {
+        visibility: hidden;
+    }
+}
+@media only screen and (max-idth: 768px) {
+     /* For Desktop */
+     #hidden {
+        visibility: hidden;
+    }
+}
